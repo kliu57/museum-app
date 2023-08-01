@@ -12,10 +12,10 @@ export default function History() {
     // get a reference to searchHistory from the searchHistoryAtom
     const [searchHistory, setSearchHistory] = useAtom(searchHistoryAtom);
 
+    let router = useRouter();
+
     // do not show "Nothing Here" message while history is being pulled
     if(!searchHistory) return null;
-
-    let router = useRouter();
 
     // loop through searchHistory to get list of parsed search queries
     let parsedHistory = [];
