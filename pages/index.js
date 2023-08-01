@@ -4,9 +4,9 @@
 * assignment has been copied manually or electronically from any other source (including web sites) or
 * distributed to other students.
 * 
-* Name: Katie Liu_____________ Student ID: 018889121_________ Date: Aug 4, 2023________
+* Name: Katie Liu_____________ Student ID: 018889121_________ Date: Aug 1, 2023________
 *
-* Vercel App (Deployed) Link: _____________________________________________________
+* Vercel App (Deployed) Link: https://museum-app-umber.vercel.app/
 *
 ********************************************************************************/
 import { Row, Col } from 'react-bootstrap';
