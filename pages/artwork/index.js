@@ -1,10 +1,11 @@
-import { useState, useEffect, Error } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { Row, Col, Pagination } from 'react-bootstrap';
 import useSWR from 'swr';
 import ArtworkCard from '@/components/ArtworkCard.js';
 import Card from 'react-bootstrap/Card';
 import validObjectIDList from '@/public/data/validObjectIDList.json'
+import Error from 'next/error'
 
 const PER_PAGE = 12;
 
