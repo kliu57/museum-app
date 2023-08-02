@@ -1,5 +1,4 @@
 import '@/styles/globals.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootswatch/dist/flatly/bootstrap.min.css';  // use bootswatch theme
 import { SWRConfig } from 'swr';
 import Layout from '@/components/Layout';
