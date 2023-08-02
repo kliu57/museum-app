@@ -24,11 +24,6 @@ export default function RouteGuard(props) {
         } else {
             setAuthorized(true);
         }
-
-        // try this for now
-        if (isAuthenticated()) {
-            updateAtoms();
-        }
     }
 
     // updates both the favourites and history with the return values from the "getFavourites" and "getHistory" functions
@@ -38,6 +33,9 @@ export default function RouteGuard(props) {
     }
 
     useEffect(() => {
+
+        // if (isAuthenticated())
+            updateAtoms();
 
         // on initial load - run auth check 
         authCheck(router.pathname);
@@ -49,7 +47,6 @@ export default function RouteGuard(props) {
         return () => {
             router.events.off('routeChangeComplete', authCheck);
         }
-
     }, []);
 
     return (
