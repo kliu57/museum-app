@@ -40,7 +40,7 @@ export default function Login(props) {
       <Card bg="light">
         <Card.Body>
           <h2>Login</h2>
-          Enter your login information below:
+          Use guest, guest to login, or create your own account:
         </Card.Body>
       </Card>
 
